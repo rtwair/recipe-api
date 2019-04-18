@@ -3,8 +3,9 @@ image: docker
 services:
     - docker
 
-before_script: 
+before_script:
     - pip install docker-compose
 
-script:
-    - docker-compose run app sh -c "python manage.py test && flake8"
+deploy:
+    script:
+        - docker-compose run app sh -c "python manage.py test && flake8"
