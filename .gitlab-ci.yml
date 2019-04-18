@@ -1,4 +1,7 @@
-image: docker
+image: python
+
+python:
+    - "3.6"
 
 services:
     - docker
