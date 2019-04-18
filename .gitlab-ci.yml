@@ -8,5 +8,4 @@ before_script:
 
 deploy:
     script:
-        - docker-compose run app sh -c "sudo pip install flake8"
         - docker-compose run app sh -c "python manage.py test && flake8"
