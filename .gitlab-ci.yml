@@ -5,7 +5,6 @@ services:
 
 before_script:
     - sudo apt-get install -y python-pip
-    - pip install docker-compose
     - pip install flake8
 
 deploy:
