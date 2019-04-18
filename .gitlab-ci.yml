@@ -5,8 +5,8 @@ services:
 
 before_script:
     - sudo apt-get install -y python-pip
-    - pip install flake8
 
 deploy:
     script:
+        - docker-compose run app sh -c "pip install flake8"
         - docker-compose run app sh -c "python manage.py test && flake8"
