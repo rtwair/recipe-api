@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AUTH_USER_MODEL	settings.py	/^AUTH_USER_MODEL = 'core.User'$/;"	v
+BASE_DIR	settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+DATABASES	settings.py	/^DATABASES = {$/;"	v
+DEBUG	settings.py	/^DEBUG = True$/;"	v
+INSTALLED_APPS	settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE	settings.py	/^MIDDLEWARE = [$/;"	v
+ROOT_URLCONF	settings.py	/^ROOT_URLCONF = 'app.urls'$/;"	v
+STATIC_URL	settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	settings.py	/^WSGI_APPLICATION = 'app.wsgi.application'$/;"	v
+application	wsgi.py	/^application = get_wsgi_application()$/;"	v
+urlpatterns	urls.py	/^urlpatterns = [$/;"	v
