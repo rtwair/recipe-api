@@ -5,6 +5,8 @@ services:
 
 before_script:
     - sudo apt-get install -y python-pip
+    - echo "TEST1 to see which directory we are in"
+    - pwd
 
 deploy:
     script:
